@@ -1,6 +1,11 @@
-.body{
-    background: #E5E5E5;
-    }
+.body {
+  background: #e5e5e5;
+}
+.conteudo {
+  display: flex;
+  flex-direction: column;
+}
+
 .topo {
   background: #cf2b2b;
   color: #ffffff;
@@ -11,19 +16,71 @@
   width: 100%;
 }
 .topo h1 {
-    font-family: 'Righteous';
-    font-size: 28px;
-    margin-left: 20px;   
-    font-weight: 400;
-   
+  font-family: "Righteous";
+  font-size: 28px;
+  margin-left: 20px;
+  font-weight: 400;
 }
-
-.topo h2{
-margin-top: 4px;
-width: 248px;
-margin-left: 20px;
-font-size: 13px;
-
-
- 
+.topo h2 {
+  margin-top: 4px;
+  width: 248px;
+  margin-left: 20px;
+  font-size: 13px;
+}
+.subtitulo {
+  padding-top: 100px;
+  padding-left: 30px;
+  font-family: "Righteous";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
+.cardapio {
+  display: flex;
+  overflow-x: scroll;
+}
+.produto {
+  min-width: 140px;
+  height: 160px;
+  background: #ffffff;
+  box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+  border-radius: 9px;
+  margin: 10px;
+  margin-top: 25x;
+  display: flex;
+  flex-direction: column;
+}
+.edit {
+  align-self: center;
+}
+.imagem {
+  width: 100px;
+  height: 60px;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+.nome {
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 13px;
+  color: #333333;
+  margin-top: 4px;
+  margin-left: 17px;
+}
+.descricao {
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 18px;
+  color: #a6a6a6;
+  margin-top: 4px;
+  margin-left: 17px;
+}
+.preco {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+  margin-top: 7px;
+  margin-left: 17px;
 }

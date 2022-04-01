@@ -28,7 +28,7 @@
   font-size: 13px;
 }
 .subtitulo {
-  padding-top: 100px;
+  padding-top: 110px;
   padding-left: 30px;
   font-family: "Righteous";
   font-style: normal;
@@ -83,4 +83,20 @@
   color: #000000;
   margin-top: 7px;
   margin-left: 17px;
+}
+.subtitulo2 {
+  padding-top: 20px;
+  padding-left: 30px;
+  font-family: "Righteous";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
+.subtitulo3{
+  padding-top: 20px;
+  padding-left: 30px;
+  font-family: "Righteous";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
 }

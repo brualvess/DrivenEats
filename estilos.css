@@ -1,9 +1,11 @@
-.body {
-  background: #e5e5e5;
+body {
+  background: #E5E5E5;
 }
 .conteudo {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  height: 844px;
 }
 
 .topo {
@@ -100,4 +102,30 @@
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
+}
+.final{
+  width: 390px;
+  height: 92px;
+  left: 0px;
+  bottom: 0px;
+  display: flex;
+  background: #FFFFFF;
+  justify-content: center;
+}
+.finalizar{
+height: 61px;
+margin-top: 20px;
+background: #CBCBCB;
+border-radius: 50px;
+align-self: center;
+
+}
+.finalizarpedido{
+  font-family: 'Roboto';
+font-weight: 400;
+font-size: 20px;
+color: #FFFFFF;
+padding-top: 10px;
+width: 364px;
+text-align: center;
 }

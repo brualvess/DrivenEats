@@ -1,5 +1,5 @@
 body {
-  background: #E5E5E5;
+  background: #e5e5e5;
 }
 .conteudo {
   display: flex;
@@ -45,12 +45,13 @@ body {
   min-width: 140px;
   height: 160px;
   background: #ffffff;
-  box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
   border-radius: 9px;
   margin: 10px;
   margin-top: 25x;
   display: flex;
   flex-direction: column;
+  border: 2px solid white;
 }
 .edit {
   align-self: center;
@@ -66,7 +67,6 @@ body {
   font-weight: bold;
   font-size: 13px;
   color: #333333;
-  text-shadow: 2px 2px 23px ;
   margin-top: 4px;
   margin-left: 17px;
 }
@@ -95,7 +95,7 @@ body {
   font-weight: 400;
   font-size: 18px;
 }
-.subtitulo3{
+.subtitulo3 {
   padding-top: 20px;
   padding-left: 30px;
   font-family: "Righteous";
@@ -103,29 +103,45 @@ body {
   font-weight: 400;
   font-size: 18px;
 }
-.final{
+.final {
   width: 390px;
   height: 92px;
   left: 0px;
   bottom: 0px;
   display: flex;
-  background: #FFFFFF;
+  background: #ffffff;
   justify-content: center;
 }
-.finalizar{
-height: 61px;
-margin-top: 20px;
-background: #CBCBCB;
-border-radius: 50px;
-align-self: center;
-
+.finalizar {
+  height: 61px;
+  margin-top: 20px;
+  background: #cbcbcb;
+  border-radius: 50px;
+  align-self: center;
 }
-.finalizarpedido{
-  font-family: 'Roboto';
-font-weight: 400;
-font-size: 20px;
-color: #FFFFFF;
-padding-top: 10px;
-width: 364px;
-text-align: center;
+.finalizarpedido {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffffff;
+  padding-top: 10px;
+  width: 364px;
+  text-align: center;
+}
+.selecionado{
+  border-color: rgb(22, 186, 22);
+}
+.selecionado ion-icon{
+  display: inline;
+}
+.pi{
+  display: flex;
+  justify-content: space-between;
+}
+.icone{
+  align-self: flex-end;
+  margin-right: 5px;
+  color: rgb(22, 186, 22);
+  display: none;
+
 }

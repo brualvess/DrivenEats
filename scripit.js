@@ -39,5 +39,27 @@ function verificarItens() {
   }
 }
 function pedirPedido() {
-  console.log("amor")
+  console.log("amor");
+  let fraseWhats = "Olá, gostaria de fazer o pedido:\n";
+
+  let total = 0;
+
+  const selecionado = document.querySelectorAll(".selecionado");
+  for (let i = 0; i < selecionado.length; i++) {
+    let escolhido = selecionado[i];
+    
+    const preco = escolhido.querySelector(".preco");
+    let soma = preco.innerText.replace(",", ".").replace("R$ ", "");
+    total += Number(soma);
+  }
+  const prato = selecionado[0].querySelector(".nome");
+  fraseWhats = fraseWhats + "- Prato: " + prato.innerText + "\n";
+  const bebida = selecionado[1].querySelector(".nome");
+  fraseWhats = fraseWhats + "- Bebida: " + bebida.innerText + "\n";
+  const sobremesa = selecionado[2].querySelector(".nome");
+  fraseWhats = fraseWhats + "- Sobremesa: " + sobremesa.innerText + "\n";
+  let precoFinal = "Total: " + " R$ " + total.toFixed(2).replace(".", ",");
+  fraseWhats = fraseWhats + precoFinal;
+  let fraseFinal = encodeURIComponent(fraseWhats);
+  window.open("https://wa.me/+5561995241641?text=" + fraseFinal);
 }

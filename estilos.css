@@ -114,12 +114,14 @@ body {
 }
 .finalizar {
   height: 61px;
-  margin-top: 20px;
   background: #cbcbcb;
   border-radius: 50px;
   align-self: center;
+  pointer-events: none;
+  
+
 }
-.finalizarpedido {
+.finalizarPedido {
   font-family: "Roboto";
   font-weight: 400;
   font-size: 20px;
@@ -143,5 +145,12 @@ body {
   margin-right: 5px;
   color: rgb(22, 186, 22);
   display: none;
+}
+.fecharPedido{
+  margin-top: 10px;
+}
+.finish{
+  background-color: rgb(22, 186, 22);
+  pointer-events: all;
 
 }
